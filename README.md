@@ -13,7 +13,7 @@ La aplicación sigue una arquitectura de capas (Clean Architecture):
 
 ## Flujo de Datos
 
-`Compose UI -> ViewModel -> UseCase -> Repository -> Data Source (Mock API)`
+`Compose UI -> ViewModel -> UseCase -> Repository -> Data Source (Mock - API)`
 
 ## Tecnologías Utilizadas
 

@@ -22,7 +22,7 @@ class ProductRepositoryImpl(
             } else {
                 ResultState.Success(response.map { it.toDomain() })
             }
-        } catch (e: Exception) {
+        } catch (_: Exception) {
             ResultState.Failure(DomainError.Network)
         }
     }

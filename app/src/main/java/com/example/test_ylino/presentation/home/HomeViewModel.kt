@@ -44,7 +44,7 @@ class HomeViewModel(
 
     fun onProductClick(product: Product) {
         viewModelScope.launch {
-            _uiEvent.emit(UiEvent.Navigate(Screen.Detail.createRoute(product.id)))
+            _uiEvent.emit(UiEvent.Navigate(Screen.ProductDetail.createRoute(product.id)))
         }
     }
 }
